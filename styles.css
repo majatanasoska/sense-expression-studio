@@ -283,3 +283,7 @@
   .demo-chapter strong{font-size:.75rem}.demo-chapter>span:not(.chapter-track){min-height:50px}
   .demo-voice{margin-left:0}.demo-controls{justify-content:space-between;gap:4px}
 }
+
+/* The progress indicator now opens the page, with no global header. */
+main{margin-top:max(32px,env(safe-area-inset-top))}
+@media(max-width:720px){main{margin-top:max(24px,env(safe-area-inset-top))}}
